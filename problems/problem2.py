@@ -12,8 +12,3 @@ def solve(brackets):
     if count_open == 0:
         return True
     return False
-
-
-
-a = "(((((((((((((((((((((((((((((())))))))))))))))))))))))))))))"
-print(solve(a))
